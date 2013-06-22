@@ -1,0 +1,29 @@
+<div class="block block-tags">
+    <div class="block-title">
+        <strong><span><?php echo $this->__('Popular Tags'); ?></span></strong>
+    </div>
+    <div class="block-content">
+        <div id="wordcloud" style="border:1px solid #f00;height:150px;width:150px;">
+            <?php foreach ($this->getTags() as $_tag): ?>
+                <span data-weight="<?php echo $_tag->getRatio(); ?>"><a href="<?php echo $_tag->getTaggedProductsUrl() ?>"><?php echo $this->htmlEscape($_tag->getName()) ?></a></span>
+            <?php endforeach; ?>
+        </div>
+        <div class="actions">
+            <a href="<?php echo $this->getUrl('tag/list') ?>"><?php echo $this->__('View All Tags') ?></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var settings = {
+        "size" : {
+            "grid" : 16
+        },
+        "options" : {
+            "color" : "random-dark",
+            "printMultiplier" : 3
+        },
+        "font" : "Futura, Helvetica, sans-serif",
+        "shape" : "square"
+    }
+    $( "#wordcloud" ).awesomeCloud( settings );
+</script>

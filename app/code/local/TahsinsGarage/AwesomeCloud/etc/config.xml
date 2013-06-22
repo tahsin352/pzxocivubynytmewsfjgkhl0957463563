@@ -21,5 +21,29 @@
         </TahsinsGarage_AwesomeCloud>
 
     </modules>
-
+    <!-- we are making changes to the frontend -->
+    <frontend>
+        
+        <!-- we are making changes to the layout -->
+        <layout>
+            
+            <!-- we are adding a new update file -->
+            <updates>
+                
+                <!-- 
+                    this child node name must be
+                    unique throughout Magento
+                -->
+                <tahsinsgarage_awesomecloud module="TahsinsGarage_AwesomeCloud">
+                    
+                    <!-- the name of the layout file we are adding -->
+                    <file>tahsinsgarage_awesomecloud.xml</file>
+                    
+                </tahsinsgarage_awesomecloud>
+                
+            </updates>
+            
+        </layout>
+        
+    </frontend>
 </config>
