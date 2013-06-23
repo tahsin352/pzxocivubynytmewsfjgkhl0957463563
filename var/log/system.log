@@ -1,0 +1,24 @@
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : expected '&gt;'  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/&lt;/global&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : Opening and ending tag mismatch: global line 24 and unparseable  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/&lt;/global&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : Opening and ending tag mismatch: config line 4 and global  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/&lt;/global&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():                ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Extra content at the end of the document  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():     &lt;frontend&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:07:50+00:00 ERR (3): Warning: simplexml_load_string():     ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : expected '&gt;'  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/&lt;/global&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : Opening and ending tag mismatch: global line 24 and unparseable  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/&lt;/global&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():       ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 32: parser error : Opening and ending tag mismatch: config line 4 and global  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/&lt;/global&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():                ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 34: parser error : Extra content at the end of the document  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():     &lt;frontend&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2013-06-23T10:08:06+00:00 ERR (3): Warning: simplexml_load_string():     ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510

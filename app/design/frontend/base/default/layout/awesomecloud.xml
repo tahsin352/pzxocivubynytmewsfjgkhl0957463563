@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!-- all layout files begin with this node -->
+<layout version="0.1.0">
+    <!-- this is the layout handle we are interested in -->
+    <default>
+        <!-- Mage_Tag -->
+        <reference name="left">
+            <block type="awesomecloud/popular" name="awesomecloud_popular" template="awesomecloud/popular.phtml"/>
+        </reference>
+    </default>
+</layout>
